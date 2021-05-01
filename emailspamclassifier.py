@@ -2,9 +2,9 @@
 
 
 #Spam Classifier based on Naive Bayes
-The method is called naive because we're asuming there's no relationships between the words themselves. We're looking at each word in isolation, individually within a message, and basically combining all the probabilities of each word's contribution to being spam or not. A better spam classifier would obviously be looking at the relationships between the words.
+#The method is called naive because we're asuming there's no relationships between the words themselves. We're looking at each word in isolation, individually within a message, and basically combining all the probabilities of each word's contribution to being spam or not. A better spam classifier would obviously be looking at the relationships between the words.
 
-
+# Natural Lnaguage Processinbg libraries
 import re
 import nltk
 from nltk.stem.porter import PorterStemmer
